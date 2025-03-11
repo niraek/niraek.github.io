@@ -1,5 +1,22 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://niraek.com/</title>
-<meta http-equiv="refresh" content="0; URL=https://niraek.com/">
-<link rel="canonical" href="https://niraek.com/">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        (function() {
+            if (window.location.hostname === "niraek.github.io") {
+                let newUrl = window.location.href.replace("niraek.github.io", "niraek.com");
+                window.location.replace(newUrl);
+            }
+        })();
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; URL=https://niraek.com/">
+    </noscript>
+    <link rel="canonical" href="https://niraek.com/">
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://niraek.com/">click here</a>.</p>
+</body>
+</html>
